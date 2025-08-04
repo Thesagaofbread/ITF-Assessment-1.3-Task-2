@@ -1,24 +1,55 @@
 :root{
 
-    --primary-color: rgb(255,255,255);
-    --secondary-color: rgb(255,255,255);
-    --bg-color: rgb(255,255,255);
-    --font-color: rgb(0, 0, 0);
-    --heading-color: rgb(255,255,255);
+    --primary-color: rgb(155,219,193);
+    --secondary-color: rgb(232,165,175);
+    --bg-color: rgb(239,232,173);
+    --font-color: rgb(204,45,48);
+    --heading-color: rgb(170,221,150);
 
 }
 [darkmode = "true"]{
 
-    --primary-color: rgb(0, 0, 0);
-    --secondary-color: rgb(0, 0, 0);
-    --bg-color: rgb(0, 0, 0);
-    --font-color: rgb(255, 255, 255);
-    --heading-color: rgb(0, 0, 0);
+    --primary-color: rgb(160,108,111);
+    --secondary-color: rgb(208,11,25);
+    --bg-color: rgb(207,68,46);
+    --font-color: rgb(146,27,48);
+    --heading-color: rgb(107,141,121);
 
 }
 body {
 
-    background-color: var(--primary-color);
+    background-color: var(--bg-color);
     color: var(--font-color);
 
 }
+img{
+
+    border: solid;
+    border-radius: 5px;
+    border-color: var(--heading-color);
+
+}
+footer {
+
+    background-color: var(--primary-color);
+    max-width: 800px;
+
+}
+div{
+
+    padding: 10px;
+    margin: 20px;
+    max-width: fit-content;
+    background-color: var(--heading-color);
+
+}
+button {
+
+    font-size: 105%;
+    border-color: var(--primary-color);
+    gap: 10px;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+
+}
+
