@@ -1,4 +1,51 @@
 
+function birdChange(element){
+
+    var photoguy = document.getElementById("photographer");
+    var img = document.getElementById("img");
+
+    switch(element){
+
+        case 1:{
+
+            photoguy.innerHTML = "Pardalote by fir0002 (CC-by-NC)";
+            img.src = "http://www.outgrabe.net/bird00.jpg";
+            break;
+        };
+        case 2:{
+
+            photoguy.innerHTML = "Purple swamp hen by Toby Hudson (CC-by-SA)";
+            img.src = "http://www.outgrabe.net/bird01.jpg";
+            break;
+
+        };
+        case 3:{
+
+            photoguy.innerHTML = "White-headed Stilt by JJ Harrison (CC-by-SA)";
+            img.src = "http://www.outgrabe.net/bird02.jpg";
+            break;
+
+        };
+        case 4:{
+
+            photoguy.innerHTML = "Inland Thornbill by Peter Jacobs (CC-by-SA)";
+            img.src = "http://www.outgrabe.net/bird03.jpg";
+            break;
+
+        };
+        case 5:{
+
+            photoguy.innerHTML = "Rose Robin by JJ Harrison (CC-by-SA)";
+            img.src = "http://www.outgrabe.net/bird04.jpg";
+            break;
+
+        };
+
+    };
+   
+};
+
+
 var darkMode = false;
 
 function shift(){
