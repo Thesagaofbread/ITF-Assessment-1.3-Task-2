@@ -4,44 +4,33 @@ function birdChange(element){
     var photoguy = document.getElementById("photographer");
     var img = document.getElementById("img");
 
-    switch(element){
+    if (element === 1){
 
-        case 1:{
+        photoguy.innerHTML = "Pardalote by fir0002 (CC-by-NC)";
+        img.src = "http://www.outgrabe.net/bird00.jpg";
 
-            photoguy.innerHTML = "Pardalote by fir0002 (CC-by-NC)";
-            img.src = "http://www.outgrabe.net/bird00.jpg";
-            break;
-        };
-        case 2:{
+    }else if(element === 2){
 
-            photoguy.innerHTML = "Purple swamp hen by Toby Hudson (CC-by-SA)";
-            img.src = "http://www.outgrabe.net/bird01.jpg";
-            break;
+        photoguy.innerHTML = "Purple swamp hen by Toby Hudson (CC-by-SA)";
+        img.src = "http://www.outgrabe.net/bird01.jpg";
 
-        };
-        case 3:{
+    }else if(element === 3){
 
-            photoguy.innerHTML = "White-headed Stilt by JJ Harrison (CC-by-SA)";
-            img.src = "http://www.outgrabe.net/bird02.jpg";
-            break;
+        photoguy.innerHTML = "White-headed Stilt by JJ Harrison (CC-by-SA)";
+        img.src = "http://www.outgrabe.net/bird02.jpg";
 
-        };
-        case 4:{
+    }else if (element === 4){
 
-            photoguy.innerHTML = "Inland Thornbill by Peter Jacobs (CC-by-SA)";
-            img.src = "http://www.outgrabe.net/bird03.jpg";
-            break;
+        photoguy.innerHTML = "Inland Thornbill by Peter Jacobs (CC-by-SA)";
+        img.src = "http://www.outgrabe.net/bird03.jpg";
 
-        };
-        case 5:{
+    }else if (element === 5){
 
-            photoguy.innerHTML = "Rose Robin by JJ Harrison (CC-by-SA)";
-            img.src = "http://www.outgrabe.net/bird04.jpg";
-            break;
-
-        };
+        photoguy.innerHTML = "Rose Robin by JJ Harrison (CC-by-SA)";
+        img.src = "http://www.outgrabe.net/bird04.jpg";
 
     };
+
    
 };
 
